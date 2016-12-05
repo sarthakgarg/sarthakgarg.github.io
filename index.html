@@ -60,6 +60,22 @@
         </ul>
 
 <h3>
+<a id="ML-project" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Object Detection in Traffic Surveillance Video</h3>
+
+        <p>We implemented an object detector and classifier for detecting people, motorcycles, three wheelers and four wheelers in institute's traffic surveillance video feed</p>
+        <ul>
+          <li> We extracted regions of interest from the video using image processing algorithms and refined then using NMS(non maximal supression) algorithm on a pyramid of gaussians built on the subframes of the initial regions
+          <li> We experimented with different feature representations of images like Histogram of Oriented Gradients(HOG) and Scale Invariant Feature Transform(SIFT) for training the classifiers. We achieved a classification accuracy of 88.8% using Linear SVC anf HOG feature representation
+          <li> We also tested a preexisting object detection framework Faster R-CNN based on convolutional networks (Developed by Shaoqiong Ren) on the project dataset
+        </ul>
+        <ul>
+          <li><a href="https://github.com/sarthakgarg/projects/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/sarthakgarg/projects/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/sarthakgarg/projects">View On <strong>GitHub</strong></a></li>
+        </ul>
+
+        
+<h3>
 <a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
 
 <p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
